@@ -23,8 +23,8 @@
 					<tr height="46">
 						<td></td>
 						<td></td>
-						<td><input type="submit" name="Submit" value="Konfirmasi"></td>
-						<td><input type="reset" name="reset" value="Batal"></td>
+						<td><input type="submit" name="Submit" value="Konfirmasi">
+						    <input type="reset" name="reset" value="Batal"></td>
 					</tr>
 				</table>
 			</form>
