@@ -21,8 +21,6 @@
 					<td><center>Nama Mahasiswa</center></td>
 					<td><center>Jurusan</center></td>
 					<td><center>Mata Kuliah</center></td>
-					<td><center>Update Data</center></td>
-					<td><center>Delete Data</center></td>
 				</tr>
 			</thead>
 			<?php
@@ -38,8 +36,6 @@
 						<td><?php echo $data['Nama'] ?></td>
 						<td><?php echo $data['Jurusan'] ?></td>
 						<td><?php echo $data['MataKuliah'] ?></td>
-						<td><a href="update.php">Update</a></td>
-						<td><a href="delete.php">Delete</a></td>
 					</tr>
 			<?php } ?>
 		</table>
