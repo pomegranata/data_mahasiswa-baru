@@ -1,7 +1,9 @@
 <?php
 	include "koneksi.php";
 	
-	$query = "delete from data_mahasiswa where jurusan='Manajemen'";
+	$nim		= $_POST['nim'];
+	
+	$query = "delete from data_mahasiswa where nim='$nim'";
 	
 	if(mysqli_query($kon,$query))
 		{echo "Data berhasil dihapus";}

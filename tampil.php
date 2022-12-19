@@ -39,5 +39,7 @@
 					</tr>
 			<?php } ?>
 		</table>
+		<a href="update_data.php">Update Data</a>
+		<a href="delete_data.php">Delete Data</a>
 	</body>
 </html>
