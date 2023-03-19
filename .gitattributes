@@ -1,1 +1,1 @@
-*.hack linguist-detectable=PHP
+*.php linguist-detectable=sql
